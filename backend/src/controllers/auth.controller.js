@@ -34,7 +34,8 @@ export const signup  = async (req,res)=>
             {
             fullName,
             email,
-            password:hashedPassword
+            password:hashedPassword,
+            profilePic:profilePic || "",
             
             }
         );
